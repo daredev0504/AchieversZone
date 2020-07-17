@@ -242,7 +242,7 @@ a.boxed-btn {
     margin: 16px 0px 47px 0px;
     line-height: 1.4;
     text-align: center;
-    color: rgb(105, 104, 104);
+    color: white;
 }
 
 .clearfix::after {
@@ -279,7 +279,7 @@ ul.breadcumb li a {
 }
 
 ul.breadcumb li a:hover {
-    color: #25d06f;
+    color: #b6aa09;
 }
 
 ul.breadcumb li::after {
@@ -766,7 +766,7 @@ ul.language-dropdown li:last-child a {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #0a3041;
+    background: rgb(61, 61, 61);
     border: none;
     -webkit-animation: navFadeIn 1s;
     animation: navFadeIn 1s;
@@ -1166,7 +1166,11 @@ a.hero-boxed-btn:hover::after {
 /*---------------------------
 ** Introduction css
 ---------------------------*/
-
+.how{
+    background: rgb(61, 61, 61);
+    margin-top: 3em;
+    padding: 5em;
+}
 .intro-section {
     margin-top: -213px;
 }
@@ -1180,12 +1184,13 @@ a.hero-boxed-btn:hover::after {
     color: #fff;
 }
 
-.intro-txt .intro-btn{
-    background-color: #b6aa09;
+.intro-btn{
+    background-color: #b6aa09 !important;
    text-align: center;
    width: 7em;
    padding: 1em;
    color: white;
+   border: none;
 }
 
 .intro-bg {
@@ -1305,7 +1310,7 @@ a.hero-boxed-btn:hover::after {
 ---------------------------*/
 
 .cta-bg {
-    background-image: url('../img/cta-bg.jpg');
+    background: rgb(61, 61, 61) !important;
     background-size: cover;
 }
 
@@ -1322,16 +1327,6 @@ a.hero-boxed-btn:hover::after {
 
 .contact-btn-wrapper {
     text-align: right;
-}
-
-.cta-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #0a3041;
-    opacity: .70;
 }
 
 .cta-content {
@@ -2095,7 +2090,7 @@ a.readmore-btn:hover::after {
 ---------------------------*/
 
 .footer-section {
-    background-color: #0a3041;
+    background-color: rgb(61, 61, 61);
     color: #c5dadc;
 }
 
@@ -2161,13 +2156,13 @@ ul.footer-links li a::after {
     font-family: 'Font Awesome 5 Free';
     content: "\f0da";
     font-weight: 700;
-    color: #25d06f;
+    color: #b6aa09;
 }
 
 ul.footer-links li a:hover {
     -webkit-transform: translateX(5px);
     transform: translateX(5px);
-    color: #25d06f;
+    color: #b6aa09;
 }
 
 .top-footer-section {
@@ -2190,7 +2185,7 @@ ul.footer-links li a:hover {
 }
 
 .footer-contact-info ul li i {
-    color: #23c66c;
+    color: #b6aa09;
     font-size: 14px;
 }
 
@@ -2236,7 +2231,7 @@ ul.footer-links li a:hover {
 }
 
 .hero2-carousel.owl-theme .owl-dots .owl-dot.active span {
-    background-color: #25d06f;
+    background-color: #b6aa09;
 }
 
 .hero-bg-1 {
@@ -2430,7 +2425,7 @@ div#particles-js canvas {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #0a3041;
+    background-color: rgb(61, 61, 61);
     opacity: .6;
 }
 
