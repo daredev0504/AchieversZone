@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #474747 !important;
+}
+img{
+  margin-top: 20px;
+}
+.img{
+  background: rgb(46, 46, 46);
+}
+.form-signin button{
+  margin-bottom: 20px;
+  background: #b6aa09;
+  color: white;
+  margin-top: 20px;
+}
+.form-signin button:hover{
+  border: 1px solid #b6aa09;
+  background: white;
+  color: #b6aa09;
+
+}
+.form-signin h1{
+  color: #474747;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-signin {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  border: 1px solid #b6aa09;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="email"] {
+  border: 1px solid #b6aa09;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border: 1px solid #b6aa09;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin input[type="tel"] {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid #b6aa09;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.checkbox{
+  color: #474747;
+ 
+}
+  .forgotPass a{
+    color: #474747;
+    text-decoration: none;
+  }
+  .forgotPass a:hover{
+    text-decoration: none;
+    color: #a19707;
+  }
+  .signupNow a{
+    color: #474747;
+  }
+  .signupNow a:hover{
+    text-decoration: none;
+    color: #a19707;
+  }
