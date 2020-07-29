@@ -866,6 +866,9 @@
 }
 
 @media only screen and (max-width: 575px) {
+    .faq-title{
+        width:100%;
+    }
     .header-navbar {
         padding: 19px 0px 27px;
     }
@@ -991,6 +994,9 @@
 }
 
 @media only screen and (max-width: 530px) {
+    .faq-title{
+        width:100%;
+    }
     .case-types ul li {
         width: 32%;
         display: inline-block;
@@ -1016,6 +1022,9 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .faq-title{
+        width:100%;
+    }
     .breadcrumb-txt span {
         margin-bottom: 20px;
     }
@@ -1149,6 +1158,9 @@
 }
 
 @media only screen and (max-width: 414px) {
+    .faq-title{
+        width:100%;
+    }
     .about.team-section .section-summary {
         margin: 17px 0px 49px;
     }
@@ -1268,6 +1280,9 @@
 }
 
 @media only screen and (max-width: 380px) {
+    .faq-title{
+        width:100%;
+    }
     .intro-bg {
         height: 300px;
     }
@@ -1367,6 +1382,7 @@
 }
 
 @media only screen and (max-width: 365px) {
+    
     .hero-txt span {
         font-size: 20px;
     }
@@ -1403,7 +1419,11 @@
     }
 }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 360px) {
+    .card{
+        width: 100%;
+       
+    }
     .hero-txt h1 {
         font-size: 27px;
     }
@@ -1420,6 +1440,9 @@
 }
 
 @media only screen and (max-width: 350px) {
+    .faq-title{
+        width:100%;
+    }
     .single-case {
         height: 280px;
     }
