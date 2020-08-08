@@ -2546,5 +2546,19 @@ div#map {
     margin-top: 3%;
     color: rgb(61, 61, 61);
 }
-
- 
+.about-test{
+    margin-top:5em;
+}
+.refer-details{
+    margin: 10%;
+}
+.refer-details h1{
+    color: #b6aa09;
+    margin-bottom: 3%;
+}
+.refer-details p{
+    color: #666666;
+    font-size:1.2em;
+    line-height: 1.5em;
+    margin-bottom: 5%;
+}
